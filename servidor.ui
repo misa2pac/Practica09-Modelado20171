@@ -273,7 +273,7 @@
          <item row="0" column="1">
           <widget class="QSpinBox" name="spinBox_columnas">
            <property name="minimum">
-            <number>1</number>
+            <number>6</number>
            </property>
            <property name="maximum">
             <number>100</number>
@@ -293,7 +293,7 @@
          <item row="1" column="1">
           <widget class="QSpinBox" name="spinBox_filas">
            <property name="minimum">
-            <number>1</number>
+            <number>6</number>
            </property>
            <property name="maximum">
             <number>100</number>
@@ -312,8 +312,11 @@
          </item>
          <item row="2" column="1">
           <widget class="QSpinBox" name="spinBox_espera">
+           <property name="minimum">
+            <number>1</number>
+           </property>
            <property name="maximum">
-            <number>300</number>
+            <number>1000</number>
            </property>
            <property name="value">
             <number>250</number>
@@ -394,6 +397,13 @@
        <widget class="QPushButton" name="pushButton_iniciar_juego">
         <property name="text">
          <string>Iniciar Juego</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_terminar_juego">
+        <property name="text">
+         <string>Terminar Juego</string>
         </property>
        </widget>
       </item>
