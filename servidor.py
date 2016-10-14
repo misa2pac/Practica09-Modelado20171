@@ -1,3 +1,8 @@
+#
+# servidor.py
+# Autor: Misael Saenz Flores
+# Version: 13/10/2016
+#
 import sys
 from PyQt4 import QtCore, QtGui, uic
 
